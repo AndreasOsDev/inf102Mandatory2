@@ -85,7 +85,6 @@ public class BigOpartII {
     public void g(int n, int k) {
         boolean[] seen = new boolean[n];
         int[] queue = new int[n];
-
         seen[0] = true;
         int head = 0;
         int tail = 1;
